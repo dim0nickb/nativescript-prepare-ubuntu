@@ -1,4 +1,6 @@
 dpkg --add-architecture i386
+curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
 apt-get update
 yes|apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 libstdc++6:i386
 yes|apt-get install lib32z1 lib32ncurses5 libbz2-1.0:i386 libstdc++6:i386
