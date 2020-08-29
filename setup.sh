@@ -8,6 +8,7 @@ update-alternatives --config java
 mkdir /usr/local/android
 mkdir /usr/local/android/sdk
 mkdir /usr/local/android/sdk/cmdline-tools
+cd /usr/local/android/sdk/cmdline-tools
 apt-get install wget
 wget "https://dl.google.com/android/repository/commandlinetools-linux-6609375_latest.zip"
 yes|apt-get install unzip
