@@ -24,5 +24,6 @@ echo 'ANDROID_HOME=/usr/local/android/sdk' >> ~./bashrc
 /usr/local/android/sdk/cmdline-tools/tools/bin/avdmanager create avd -n test -k "system-images;android-25;google_apis;x86" 
 npm install nativescript -g --unsafe-perm
 tns doctor
-apt install qemu-kvm
+apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 adduser $USER kvm
+adduser $USER libvirtd
