@@ -27,3 +27,4 @@ tns doctor
 apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 adduser $USER kvm
 adduser $USER libvirtd
+apt-get install android-tools-adb
