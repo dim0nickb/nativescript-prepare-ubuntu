@@ -28,3 +28,7 @@ apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 adduser $USER kvm
 adduser $USER libvirtd
 apt-get install android-tools-adb
+apt update
+apt install openjdk-8-jdk
+snap install android-studio --classic
+chmod -R 777 /usr/local/android
