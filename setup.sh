@@ -32,3 +32,4 @@ apt update
 apt install openjdk-8-jdk
 snap install android-studio --classic
 chmod -R 777 /usr/local/android
+chmod -R 777 ~/.gradle
